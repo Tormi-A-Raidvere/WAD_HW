@@ -1,0 +1,37 @@
+.header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid #1d1c1f;
+    background-color: #c9c5c5;
+    position: sticky;
+    top: 10px;
+    border-radius: 5px;
+}
+
+.header strong:hover {
+    background-color: #924055;
+    color: #092747;
+}
+
+.header class="logo" {
+    margin: 0;
+    font-size: 1em;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+.footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid #1d1c1f;
+    background-color: #c9c5c5;
+    position: sticky;
+    bottom: 10px;
+    border-radius: 5px;
+    margin-top: auto;
+}
