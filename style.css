@@ -1,21 +1,46 @@
-.header {
+.header {                       /* Header styling */ 
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 25px;
     padding-right: 25px;
+    height: 100px;
     border: 1px solid #1d1c1f;
     background-color: #c9c5c5;
     position: sticky;
-    top: 10px;
+    top: 0px;
     border-radius: 5px;
 }
 
-.header strong:hover {
+.header strong:hover {          /* Styling for strong elements in header on hover */
+    color: #092747;
     background-color: #924055;
     color: #092747;
 }
 
-.header class="logo" {
+.main-content {                 /* Main content "box" styling */
+    padding: 20px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #fafafa;
+}
+
+.content {                       /* Content styling inside main content */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex: 1;
+}
+
+.sidebar {                      /* Sidebar styling */
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 600px;
+    background-color: #c9c5c5;;
+}
+
+.logo {
     margin: 0;
     font-size: 1em;
     position: absolute;
@@ -23,15 +48,16 @@
     right: 25px;
 }
 
-.footer {
+.footer {                       /* Footer styling */
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 25px;
     padding-right: 25px;
+    height: 100px;
+    text-align: center;
     border: 1px solid #1d1c1f;
     background-color: #c9c5c5;
     position: sticky;
-    bottom: 10px;
+    bottom: 0px;
     border-radius: 5px;
-    margin-top: auto;
 }
