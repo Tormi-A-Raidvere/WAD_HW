@@ -8,7 +8,7 @@
     border-radius: 5px;
     text-align: left;
     font-size: 2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -29,6 +29,19 @@
     gap: 20px;
 }
 
+.article {                       /* Article styling inside main content */
+    padding: 20px;
+    display: flex;
+    margin-top: auto;
+    width: 100%;
+    min-height: 100px;
+    max-width: 900px;
+    background-color: #c5bbbb;
+    gap: 0px;
+    flex: 1;
+    flex-direction: column;
+}
+
 .content {                       /* Content styling inside main content */
     padding: 20px;
     display: flex;
@@ -36,7 +49,7 @@
     width: 20%;
     min-height: 100px;
     max-width: 900px;
-    background-color: #c9c5c5;
+    background-color: #ffffff;
     border-radius: 5px;
     gap: 20px;
     flex: 1;
@@ -75,8 +88,8 @@
 
 .footer {                       /* Footer styling */
     display: flex;
-    justify-content: center; /* Horisontaalselt keskele */
-    align-items: center;     /* Vertikaalselt keskele */
+    justify-content: center;    /* Horisontaalselt keskele */
+    align-items: center;        /* Vertikaalselt keskele */
     height: 100px;
     border: 1px solid #1d1c1f;
     background-color: #c9c5c5;
@@ -136,3 +149,16 @@
 .create-btn:hover {
     background-color: #123052;
 }
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers the inputs and the button horizontally */
+    gap: 2px;             /* replaces the <br> tags */
+}
+
+a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
