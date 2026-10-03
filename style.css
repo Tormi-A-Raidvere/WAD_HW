@@ -40,6 +40,13 @@
     flex-direction: column;
 }
 
+.article img {                       /* Image styling inside article */
+    width: 100%;
+    height: auto;
+    max-width: 1600px;
+    border-radius: 5px;
+}
+
 .content {                       /* Content styling inside main content */
     padding: 20px;
     display: flex;
@@ -92,6 +99,8 @@
     border: 1px solid #1d1c1f;
     background-color: #c9c5c5;
     border-radius: 5px;
+    position: sticky;
+    bottom: 0px;
 }
 
 .post-form {
